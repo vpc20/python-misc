@@ -36,7 +36,7 @@ def crawl_web(seed_page):
             url_list = get_all_url(html_file)
             pages_to_crawl = pages_to_crawl + list(set(url_list) - set(crawled_pages))
             crawled_pages.append(curr_page)
-            print crawled_pages
+            print (crawled_pages)
     return crawled_pages
 
 
