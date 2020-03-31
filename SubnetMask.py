@@ -109,7 +109,7 @@ def subnet_calc_class_c1(ipcidr):
            '.'.join([str(i) for i in broadcast_ip])
 
 
-sb, h1, h2, s, b = subnet_calc_class_c1('192.168.129.130/25')
+sb, h1, h2, s, b = subnet_calc_class_c1('192.168.129.0/24')
 print('Subnet Mask           : ' + sb)
 print('Host address range    : ' + h1 + ' - ' + h2)
 print('Subnet IP address     : ' + s)
