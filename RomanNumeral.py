@@ -34,6 +34,14 @@ class RomanNumerals:
                 i += len(roman)
         return n
 
+# def intToRoman(n): # less efficient version
+#     result = ''
+#     while n > 0:
+#         for roman, num in roman_nums:
+#             while n >= num:
+#                 result += roman
+#                 n -= num
+#     return result
 
 r = RomanNumerals()
 print(RomanNumerals.to_roman(1985))
